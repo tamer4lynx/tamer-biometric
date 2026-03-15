@@ -1,0 +1,17 @@
+{
+  "platforms": {
+    "android": {
+      "packageName": "com.nanofuxion.tamerbiometric",
+      "moduleClassName": "com.nanofuxion.tamerbiometric.BiometricModule",
+      "sourceDir": "android",
+      "attachHostView": true
+    },
+    "ios": {
+      "podspecPath": "ios/tamerbiometric",
+      "moduleClassName": "BiometricModule",
+      "iosPermissions": {
+        "NSFaceIDUsageDescription": "Used for biometric authentication"
+      }
+    }
+  }
+}
