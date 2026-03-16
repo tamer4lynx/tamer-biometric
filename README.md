@@ -8,7 +8,7 @@ Biometric authentication (fingerprint, Face ID) for Lynx. Standalone module for 
 npm install tamer-biometric
 ```
 
-Add to your app's dependencies and run `t4l link`.
+Add to your app's dependencies and run `t4l link`. Uses **lynx.ext.json** (RFC standard).
 
 ## Usage
 
