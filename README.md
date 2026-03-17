@@ -5,7 +5,7 @@ Biometric authentication (fingerprint, Face ID) for Lynx. Standalone module for 
 ## Installation
 
 ```bash
-npm install tamer-biometric
+npm install @tamer4lynx/tamer-biometric
 ```
 
 Add to your app's dependencies and run `t4l link`. Uses **lynx.ext.json** (RFC standard).
@@ -21,7 +21,7 @@ import {
   FINGERPRINT,
   FACIAL_RECOGNITION,
   IRIS,
-} from 'tamer-biometric'
+} from '@tamer4lynx/tamer-biometric'
 
 const hasHardware = await hasHardwareAsync()
 const isEnrolled = await isEnrolledAsync()

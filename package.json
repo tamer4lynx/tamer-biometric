@@ -1,6 +1,7 @@
 {
-  "name": "tamer-biometric",
-  "version": "0.1.0",
+  "name": "@tamer4lynx/tamer-biometric",
+  "version": "0.0.1",
+  "publishConfig": { "access": "public", "tag": "prerelease" },
   "type": "module",
   "description": "Biometric authentication (fingerprint, Face ID) for Lynx.",
   "main": "dist/src/index.js",
@@ -12,7 +13,7 @@
       "default": "./dist/src/index.js"
     }
   },
-  "files": ["dist", "src", "android", "ios"],
+  "files": ["dist", "android/src", "android/build.gradle.kts", "ios"],
   "scripts": {
     "build": "tsc",
     "prepare": "tsc"
@@ -23,6 +24,9 @@
   "engines": {
     "node": ">=18"
   },
+  "repository": { "type": "git", "url": "https://github.com/tamer4lynx/tamer-biometric.git" },
+  "homepage": "https://github.com/tamer4lynx/tamer-biometric#readme",
+  "bugs": { "url": "https://github.com/tamer4lynx/tamer-biometric/issues" },
   "author": "Nanofuxion",
   "license": "MIT"
 }
