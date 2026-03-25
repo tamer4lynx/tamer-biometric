@@ -1,6 +1,6 @@
 {
   "name": "@tamer4lynx/tamer-biometric",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "publishConfig": { "access": "public", "tag": "prerelease" },
   "type": "module",
   "description": "Biometric authentication (fingerprint, Face ID) for Lynx.",
@@ -13,7 +13,7 @@
       "default": "./dist/src/index.js"
     }
   },
-  "files": ["dist", "android/src", "android/build.gradle.kts", "ios"],
+  "files": ["dist", "android/src", "android/build.gradle.kts", "ios", "lynx.ext.json"],
   "scripts": {
     "build": "tsc",
     "prepare": "tsc"
